@@ -1,21 +1,17 @@
 # PlugExample
 
-**TODO: Add description**
+Example plug project as per the [elixir-school tutorial](https://elixirschool.com/en/lessons/specifics/plug/).
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `plug_example` to your list of dependencies in `mix.exs`:
+Start the server:
 
-```elixir
-def deps do
-  [
-    {:plug_example, "~> 0.1.0"}
-  ]
-end
+```sh
+mix run --no-halt
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/plug_example](https://hexdocs.pm/plug_example).
+Run the tests:
 
+```sh
+mix test
+```
