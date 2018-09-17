@@ -24,7 +24,8 @@ defmodule PlugExample.MixProject do
   defp deps do
     [
       {:cowboy, "~> 2.4.0"},
-      {:plug, "~> 1.6.3"}
+      {:plug, "~> 1.6.3"},
+      {:logster, "~> 0.8.0"}
     ]
   end
 end

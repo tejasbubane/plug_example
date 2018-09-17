@@ -4,13 +4,19 @@ Example plug project as per the [elixir-school tutorial](https://elixirschool.co
 
 ## Installation
 
-Start the server:
+* Install all dependencies:
+
+```sh
+mix deps.get
+```
+
+* Start the server:
 
 ```sh
 mix run --no-halt
 ```
 
-Run the tests:
+* Run the tests:
 
 ```sh
 mix test

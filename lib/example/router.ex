@@ -4,7 +4,7 @@ defmodule Example.Router do
 
   alias Example.VerifyRequest
 
-  plug Plug.Logger
+  plug Logster.Plugs.Logger
 
   plug(Plug.Parsers, parsers: [:urlencoded, :multipart])
 
